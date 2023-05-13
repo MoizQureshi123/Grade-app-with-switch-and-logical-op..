@@ -14,7 +14,7 @@
     <div class="background-image"></div>
     <form onsubmit="Gradecheck();return false">
     <label for="percentage">Enter Your Percentage : </label>
-        <input class="input" type="number" id="percentage" placeholder="here" min="1" max="100"
+        <input class="input" type="number" id="percentage" placeholder="here" min="1" max="100" step="0.00001"
         required >
         <p>
         <button type="submit">Submit</button>
@@ -26,9 +26,7 @@
 <script>
 
  function Gradecheck() {
-
 let percentage = parseFloat( document.getElementById(`percentage`).value).toFixed(2);
-     step="0.00001"
 let grade = '';
 
 
