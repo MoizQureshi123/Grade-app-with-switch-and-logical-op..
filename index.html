@@ -27,7 +27,8 @@
 
  function Gradecheck() {
 
-let percentage = document.getElementById(`percentage`).value  ;
+let percentage = parseFloat( document.getElementById(`percentage`).value).toFixed(2);
+     step="0.00001"
 let grade = '';
 
 
