@@ -1,0 +1,40 @@
+
+body{
+    background-color: azure;
+}
+  .input{
+    width: 9rem;
+    
+  }
+  h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: indianred;
+    font-size: 100px;
+
+  }
+  label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size: 50px;
+    border-radius: 25px;
+    border-color: rgb(253, 7, 7);
+    
+
+  }
+  button{
+ font-size: 30px;
+ border-radius: 25px;
+ padding: 10px;
+ background-color: black;
+ color: white;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+#gradeResult{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+}
